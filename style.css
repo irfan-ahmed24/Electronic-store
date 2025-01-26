@@ -150,6 +150,22 @@ body {
   font-size: 1em;
   font-weight: bold;
 }
+/* cart */
+#cart {
+  position: relative;
+  font-size: 20px;
+  text-align: center;
+}
+#cart i p {
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  font-size: 10px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 5px;
+}
 
 /* Responsive Styles */
 @media (max-width: 768px) {
@@ -196,5 +212,24 @@ body {
   }
   .mobile-menu {
     display: grid;
+  }
+  /* cart */
+  #mobile-cart {
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+  }
+  #mobile-cart i p {
+    position: absolute;
+    top: -15px;
+    right: 2.5rem;
+    font-size: 10px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+  }
+  #cart {
+    display: none;
   }
 }
