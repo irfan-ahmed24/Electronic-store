@@ -168,10 +168,13 @@ body {
 }
 /*navbar end*/
 /*main start*/
+main {
+  background-color: rgb(219, 243, 243);
+}
 main .section1 {
   height: 120vh;
   width: 100%;
-  background: url("./pic/cover.webp") no-repeat center center/cover;
+  background: url("./pic/background.jpg") no-repeat center center/cover;
   position: relative;
 }
 main .section1 .content {
@@ -199,6 +202,23 @@ main .section1 .content a {
   text-decoration: none;
   color: rgb(62, 62, 238);
   font-weight: bold;
+}
+/*section 2 start*/
+main .section2 {
+  position: relative;
+}
+main .section2 .section2-container {
+  position: relative;
+  width: 90%;
+  margin: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: rgb(255, 255, 255);
+  padding: 1rem;
+  border: 1px solid rgb(252, 139, 214);
 }
 /* Responsive Styles */
 /*for mini pc*/
@@ -299,6 +319,7 @@ main .section1 .content a {
 }
 @media (max-width: 768px) {
   /*main start*/
+
   main .section1 .content {
     width: 90%;
     top: 70%;
