@@ -1,6 +1,7 @@
 var menu = document.getElementById("menu");
 var nav3 = document.getElementById("nav3");
 var dropdown = document.getElementById("dropdown");
+var down = document.getElementById("down");
 var dropdown_menu = document.getElementById("dropdown-content");
 
 menu.addEventListener("click", function () {
@@ -8,5 +9,8 @@ menu.addEventListener("click", function () {
 })
 
 dropdown.addEventListener("click", function () {
+    dropdown_menu.classList = dropdown_menu.classList.contains("hide-ul") ? "dropdown-content show-ul" : "hide-ul";
+})
+down.addEventListener("click", function () {
     dropdown_menu.classList = dropdown_menu.classList.contains("hide-ul") ? "dropdown-content show-ul" : "hide-ul";
 })
