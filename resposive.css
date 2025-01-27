@@ -1,6 +1,25 @@
 /* Responsive Styles */
 /*for mini pc*/
+@media (max-width: 1200px) {
+  .Elementor-container {
+    width: 100%;
+  }
+  .Elementor {
+    width: 30%;
+  }
+}
 @media (max-width: 1024px) {
+  .container {
+    margin-top: 10px;
+    height: 90vh;
+  }
+  .Elementor-container {
+    width: 95%;
+    height: 80vh;
+  }
+  .Elementor {
+    width: 45%;
+  }
 }
 /*for tablet*/
 @media (max-width: 920px) {
@@ -66,8 +85,32 @@
   #cart {
     display: none;
   }
+  .container {
+    margin-top: 0px;
+    height: 80vh;
+  }
+  .Elementor-container {
+    width: 95%;
+    height: 70vh;
+  }
+  .Elementor {
+    width: 40%;
+    padding: 2rem;
+  }
+  .Elementor h1 {
+    font-size: 2em;
+    margin-bottom: 0.5rem;
+  }
 }
 @media (max-width: 768px) {
+  .Elementor-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .Elementor {
+    position: relative;
+    width: 100%;
+  }
 }
 @media (max-width: 520px) {
 }
