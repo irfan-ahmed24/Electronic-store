@@ -5,17 +5,17 @@
     width: 100%;
   }
   .Elementor {
-    width: 30%;
+    width: 35%;
   }
 }
 @media (max-width: 1024px) {
   .container {
     margin-top: 10px;
-    height: 90vh;
+    height: 80vh;
   }
   .Elementor-container {
     width: 95%;
-    height: 80vh;
+    height: fit-content;
   }
   .Elementor {
     width: 45%;
@@ -87,14 +87,11 @@
   }
   .container {
     margin-top: 0px;
-    height: 80vh;
-  }
-  .Elementor-container {
-    width: 95%;
-    height: 70vh;
+    min-height: 80vh;
   }
   .Elementor {
-    width: 40%;
+    width: 50%;
+    height: fit-content;
     padding: 2rem;
   }
   .Elementor h1 {
@@ -103,13 +100,27 @@
   }
 }
 @media (max-width: 768px) {
+  .container {
+    margin: 0px;
+    min-height: 100vh;
+    padding: 2rem;
+  }
   .Elementor-container {
     display: flex;
     flex-direction: column-reverse;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
   }
   .Elementor {
     position: relative;
     width: 100%;
+    height: fit-content;
+    border: border-box;
+    padding: 1rem;
+  }
+  .Elementor p {
+    font-size: 1em;
   }
 }
 @media (max-width: 520px) {
