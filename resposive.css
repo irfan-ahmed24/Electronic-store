@@ -20,6 +20,13 @@
   .Elementor {
     width: 45%;
   }
+  .Elementor h1 {
+    font-size: 2em;
+    margin-bottom: 0.5rem;
+  }
+  .Elementor p {
+    font-size: 1em;
+  }
 }
 /*for tablet*/
 @media (max-width: 920px) {
@@ -122,6 +129,13 @@
   .Elementor p {
     font-size: 1em;
   }
+  .services {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 2rem;
+  }
 }
 @media (max-width: 520px) {
+  .services {
+    grid-template-columns: 1fr;
+  }
 }

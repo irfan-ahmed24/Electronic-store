@@ -198,13 +198,13 @@ main {
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
 .Elementor h1 {
-  font-size: 3em;
+  font-size: 2.5em;
   margin-bottom: 1rem;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   opacity: 0.8;
 }
 .Elementor p {
-  font-size: 1.3em;
+  font-size: 1.2em;
   margin-bottom: 1rem;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   opacity: 0.8;
@@ -216,3 +216,37 @@ main {
   opacity: 0.8;
 }
 /*service section start*/
+.services {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin: -30px 2rem 0px 2rem;
+  padding: 1.5rem;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.services .service {
+  display: grid;
+  grid-template-columns: 1fr 11fr;
+  border-left: 1px solid rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 0.5rem;
+}
+.services .service i {
+  font-size: 25px;
+  margin-right: 10px;
+  color: rgb(65, 12, 189);
+  font-weight: bold;
+  opacity: 0.8;
+}
+.services .service h3 {
+  font-size: 16px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  opacity: 0.8;
+}
+.services .service p {
+  font-size: 14px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  opacity: 0.8;
+}
