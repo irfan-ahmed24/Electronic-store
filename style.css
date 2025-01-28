@@ -281,3 +281,14 @@ main {
   justify-content: center;
   align-items: center;
 }
+/*products-section2*/
+.products-section2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 4rem;
+  gap: 1rem;
+}
+.products-section2 img {
+  width: 100%;
+  height: 100%;
+}

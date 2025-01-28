@@ -12,6 +12,10 @@
     grid-template-columns: repeat(3, 1fr);
     margin: 2rem;
   }
+  /*products-section2*/
+  .products-section2 {
+    margin: 2rem;
+  }
 }
 @media (max-width: 1024px) {
   .container {
@@ -128,6 +132,10 @@
     grid-template-columns: repeat(3, 1fr);
     margin: 2rem;
   }
+  /*products-section2*/
+  .products-section2 {
+    grid-template-columns: 1fr;
+  }
 }
 @media (max-width: 768px) {
   .container {
@@ -163,10 +171,18 @@
   }
 }
 @media (max-width: 520px) {
+  .Elementor-container {
+    margin: 20px;
+  }
   .services {
     grid-template-columns: 1fr;
+    margin: 5px;
   }
   .products-1 ul {
     grid-template-columns: 1fr;
+    margin: 5px;
+  }
+  .products-section2 {
+    margin: 5px;
   }
 }
