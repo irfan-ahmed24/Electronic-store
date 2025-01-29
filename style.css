@@ -293,14 +293,20 @@ main {
   height: 100%;
 }
 /*best-deal-products*/
-
+.best-products-title {
+  margin: 4rem 4rem 0 4rem;
+  padding: 1.5rem;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
 .best-deal-product .best-products {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
-  margin: 4rem;
+  margin: 0 4rem 4rem 4rem;
   padding: 1.5rem;
-  background-color: royalblue;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 .best-deal-product .best-products .product-img {
   position: relative;
@@ -319,7 +325,7 @@ main {
 }
 .best-deal-product .best-products .product-img i {
   position: absolute;
-  display: block;
+  display: none;
   top: 15px;
   right: 15px;
   color: rgb(3, 0, 0, 0.5);
@@ -329,6 +335,14 @@ main {
   border-radius: 50px;
   font-size: 15px;
   cursor: pointer;
+  transition: all 0.3s;
+}
+.best-deal-product .best-products .product-img:hover i {
+  display: block;
+}
+.best-deal-product .best-products .product-img i:hover {
+  color: rgb(3, 0, 0, 1);
+  scale: 1.1;
 }
 .best-deal-product .best-products a {
   height: 50%;
@@ -346,7 +360,12 @@ main {
   color: rgb(223, 226, 59);
   margin: -2px;
 }
+.best-products .product .product-info h3 a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 0.9em;
+}
 .best-products .product .product-info h3 {
   margin-top: 0.5rem;
-  text-decoration: none;
+  margin-bottom: 0.5rem;
 }
