@@ -338,3 +338,15 @@ main {
   width: 100%;
   height: 100%;
 }
+.best-products .product .product-info {
+  padding: 1rem;
+}
+.best-products .product .product-info i {
+  font-size: 15px;
+  color: rgb(223, 226, 59);
+  margin: -2px;
+}
+.best-products .product .product-info h3 {
+  margin-top: 0.5rem;
+  text-decoration: none;
+}
