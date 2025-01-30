@@ -25,6 +25,9 @@
   .wareless {
     margin: 2rem;
   }
+  .create-play {
+    margin: 2rem 2rem 0 2rem;
+  }
 }
 @media (max-width: 1024px) {
   .container {
@@ -57,9 +60,17 @@
   .wareless .wareless-product {
     height: 180px;
   }
+  .wareless .wareless-product .info h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
   .wareless .wareless-product img {
     height: auto;
     width: 100px;
+  }
+  .wareless .wareless-product .gromming {
+    height: 180px;
+    width: 50px;
   }
 }
 /*for tablet*/
@@ -206,21 +217,27 @@
   }
   .services {
     grid-template-columns: 1fr;
-    margin: 5px;
+    margin: 20px;
   }
   .products-1 ul {
     grid-template-columns: 1fr;
-    margin: 5px;
+    margin: 20px;
   }
   .products-section2 {
-    margin: 5px;
+    margin: 20px;
   }
   /*best-deal-products*/
   .best-deal-product .best-products {
     grid-template-columns: 1fr;
-    margin: 0 5px 5px 5px;
+    margin: 0 20px 20px 20px;
   }
   .best-products-title {
-    margin: 5px 5px 0 5px;
+    margin: 20px 20px 0 20px;
+  } /*wareless section*/
+  .wareless .wareless-product {
+    margin-top: 20px;
+  }
+  .create-play {
+    margin: 0;
   }
 }

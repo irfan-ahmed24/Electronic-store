@@ -373,24 +373,63 @@ main {
 .wareless {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  background-color: rgb(122, 59, 59);
   margin: 4rem;
   gap: 1rem;
 }
 .wareless .wareless-product {
   position: relative;
-  background-color: rgb(81, 81, 248);
+  background-color: rgb(255, 255, 255);
   padding: 1rem;
   height: 250px;
 }
+.wareless .wareless-product .gromming {
+  height: 254px;
+  width: 88px;
+}
 .wareless .wareless-product .info {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 50%;
   z-index: 4;
 }
+.wareless .wareless-product .info h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  opacity: 0.8;
+}
 .wareless .wareless-product img {
-  aspect-ratio: 149/256;
   height: 256px;
   width: 144px;
   position: absolute;
   top: 20px;
   right: 20px;
+}
+.wareless .wareless-product .info p {
+  margin-bottom: 1rem;
+  opacity: 0.8;
+}
+.wareless .wareless-product .info a {
+  text-decoration: none;
+  font-weight: bold;
+  opacity: 0.8;
+}
+.wareless .headphones {
+  background-color: rgb(236, 236, 255);
+}
+.wareless .grooming {
+  background-color: rgb(231, 231, 252);
+}
+.wareless .video-games {
+  background-color: rgb(255, 226, 207);
+}
+/*create-play section*/
+.create-play {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 4rem 4rem 0 4rem;
+}
+.create-play img {
+  width: 100%;
+  height: 100%;
 }
