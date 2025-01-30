@@ -22,6 +22,9 @@
   .best-products-title {
     margin: 2rem 2rem 0 2rem;
   }
+  .wareless {
+    margin: 2rem;
+  }
 }
 @media (max-width: 1024px) {
   .container {
@@ -49,6 +52,14 @@
   }
   .best-deal-product .best-products {
     grid-template-columns: repeat(3, 1fr);
+  }
+  /*wareless product*/
+  .wareless .wareless-product {
+    height: 180px;
+  }
+  .wareless .wareless-product img {
+    height: auto;
+    width: 100px;
   }
 }
 /*for tablet*/
@@ -144,7 +155,6 @@
   .products-section2 {
     grid-template-columns: 1fr;
   }
-  /*best-deal-products*/
 }
 @media (max-width: 768px) {
   .container {
@@ -180,6 +190,14 @@
   /*best-deal-products*/
   .best-deal-product .best-products {
     grid-template-columns: repeat(2, 1fr);
+  }
+  /*wareless-products*/
+  .wareless {
+    grid-template-columns: 1fr;
+  }
+  .wareless .wareless-product {
+    height: 150px;
+    margin-top: 2rem;
   }
 }
 @media (max-width: 520px) {
